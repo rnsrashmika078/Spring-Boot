@@ -13,7 +13,6 @@ import com.example.test.dto.UpdateMessageDTO;
 
 @Service
 public class MessageService {
-    // message as a object
     private final List<MessageDTO> messages = new ArrayList<>();
 
     // add a message to message list
